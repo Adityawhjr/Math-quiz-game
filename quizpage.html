@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="gamepage.js"></script>
+<link rel="stylesheet" href="gamepage.css">
+</head>
+<body>
+    <label id="player1_name">Player1:</label><label id="player1_score">100</label>
+    <br>
+    <label id="player2_name">Player2:</label><label id="player2_score">10</label>
+<center>
+    <h1>The Maths quiz game!</h1><br>
+    <h2 id="player_question">Question turn:</h2>
+    <h2 id="player_answer">Answer turn:</h2><br>
+    <div id="output"></div><br>
+    <h4>Number 1:</h4><br>
+    <input class="form-control" type="text" placeholder="First Number" id="number1_input"><br>
+    <h4>Number 2:</h4><br>
+    <input class="form-control" type="text" placeholder="First Number" id="number2_input"><br>
+    <br>
+    <button onclick="send()" id="button_send" class="btn btn-success">Send</button>
+</center>
+    
+</body>
+</html>

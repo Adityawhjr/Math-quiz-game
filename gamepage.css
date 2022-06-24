@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+}
+div{
+    width: 70%;
+    padding: 10px;
+    background-color:white;
+    border-top: 15px solid orange;
+    border-radius: 15px;
+}
+h4{
+    font-weight: bold;
+}
+#number1_input,#number2_input{
+    width:50% ;
+}
+#button_send{
+    width: 30%;
+    height: 30px;
+    border:50%;
+}

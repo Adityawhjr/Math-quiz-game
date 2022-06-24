@@ -1,0 +1,21 @@
+body
+{
+    font-style: italic;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: #80ffdb;
+		padding: 15px;
+		float: none;
+		border-radius: 15px;
+        width: 450px;
+        height: 150px;
+	}
+    #button1{
+        border-radius: 20%;
+        width: 10%;
+        background: linear-gradient(purple 1%,aqua);
+        height: 30px;
+    }
+    
